@@ -1,0 +1,9 @@
+{
+  "Name":"氏名",
+  "Email": "メールアドレス",
+  "Password": "パスワード",
+  "Remember me": "ログイン情報を保存する",
+  "Forgot your password?": "パスワードを忘れた方はこちら",
+  "Log in": "ログイン",
+  "Confirm Password":"パスワード再入力"
+}
