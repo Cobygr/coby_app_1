@@ -9,7 +9,7 @@
 <body>
   <form action="{{ route('register.store') }}" method="POST">
     @csrf
-    <label for="email">メールアドレス</label>
+    <label for="email">メールアドレスあ</label>
     <input type="email" name="email" id="email" required>
     <br>
     <label for="password">パスワード</label>

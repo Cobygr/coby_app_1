@@ -8,7 +8,8 @@
     @vite(['resources/scss/app.scss','resources/css/app.css','resources/js/app.js'])
   </head>
 <body>
-  ログイン画面
+  ログイン画面ai
+  
   <div class="container">
     <h2>Hello sass </h2>
   </div>
