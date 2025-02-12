@@ -1,0 +1,19 @@
+// foundation/_reset.scss
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; // ブラウザのデフォルトフォントサイズを維持
+}
+
+body {
+  font-family: sans-serif; // ブラウザのデフォルトフォントを設定
+  font-size: 16px;
+  line-height: 1.5;
+}

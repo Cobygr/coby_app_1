@@ -1,0 +1,11 @@
+// style.scss
+//foudation（基本設定）
+//importで読み込む場合_はいらない。あるとエラーとなる
+@import "foundation/reset";
+@import "foundation/base";
+@import "foundation/typography";
+
+
+//Layout(レイアウト関連)
+@import "layout/header";
+@import "layout/register";

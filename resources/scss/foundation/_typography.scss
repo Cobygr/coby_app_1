@@ -1,0 +1,39 @@
+// foundation/_typography.scss
+
+// フォントサイズ変数（基本ルール）
+$font-size-base: 16px;
+$font-size-sm: 14px;
+$font-size-md: 18px;
+$font-size-lg: 24px;
+$font-size-xl: 32px;
+
+// 行間（line-height）の設定
+$line-height-base: 1.5;
+$line-height-sm: 1.4;
+$line-height-lg: 1.6;
+
+// フォント設定
+body {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-family: "Arial", sans-serif;
+}
+
+// 見出し
+h1 {
+  font-size: $font-size-xl;
+  line-height: $line-height-lg;
+}
+
+h2 {
+  font-size: $font-size-lg;
+}
+
+h3 {
+  font-size: $font-size-md;
+}
+
+p {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
