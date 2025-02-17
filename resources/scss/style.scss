@@ -1,11 +1,22 @@
-// style.scss
-//foudation（基本設定）
-//importで読み込む場合_はいらない。あるとエラーとなる
-@import "foundation/reset";
-@import "foundation/base";
-@import "foundation/typography";
+// // style.scss
+// //foudation（基本設定）
+// //importで読み込む場合_はいらない。あるとエラーとなる
+// @import "foundation/reset";
+// @import "foundation/base";
+// @import "foundation/typography";
 
 
-//Layout(レイアウト関連)
-@import "layout/header";
-@import "layout/register";
+// //Layout(レイアウト関連)
+// @import "layout/header";
+// @import "layout/register";
+
+// style.scss　use文で↓
+
+// Foundation（基本設定）
+@use "foundation/reset";
+@use "foundation/base";
+@use "foundation/typography";
+
+// Layout（レイアウト関連）
+@use "layout/header";
+@use "layout/register";
