@@ -24,13 +24,22 @@
             <h2 class="l-register__title">ユーザー登録</h2>
             @csrf
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+            <!-- valueにold('email')とすることで、入力した値が保持される -->
+            <input type="email" name="email" id="email" value="{{ old('email') }}" required>
+            @error('email')
+                <p class="c-error__validate">{{ $message }}</p> {{-- controller側でvalidate関数の第２引数の内容が呼び出される --}}
+            @enderror
+
             <br>
             <label for="password">パスワード</label>
             <input type="password" name="password" id="password" required>
+            @error('password')
+                <p class="c-error__validate">{{ $message }}</p>
+            @enderror
             <br>
             <label for="password">パスワード（再入力）</label>
-            <input type="password" name="pass_re" id="pass_re" required>
+            <input type="password" name="password_confirmation" id="pass_re" required>
+            <!-- validateを使う場合クラス名は「password_confirmation」でなければならない 。requiredはブラウザが側が自動でエラーメッセージの表示-->
             <br>
             <!--  ボタンを右端に寄せるためのコンテナ -->
             <div class="l-register__btn">

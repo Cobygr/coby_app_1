@@ -5,7 +5,6 @@
 // @import "foundation/base";
 // @import "foundation/typography";
 
-
 // //Layout(レイアウト関連)
 // @import "layout/header";
 // @import "layout/register";
@@ -20,3 +19,6 @@
 // Layout（レイアウト関連）
 @use "layout/header";
 @use "layout/register";
+
+//components(コンポーネント関連)
+@use "object/component/error-message";
